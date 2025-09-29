@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Trashed;
+    src: url(Trashed-8ejg.ttf);
+}
+@font-face {
+    font-family: UndecappedVinyl;
+    src: url(UndecappedVinyl-r3dy.ttf);
+}
+@font-face {
+    font-family: SupaFly;
+    src: url(Supafly36-ldLd.ttf);
+}
+
+body {
+    font-family: 'Courier New', 'Courier', 'monospace';
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('purplishbinary.gif');
+    background-size: 50%;
+}
+
+/* Banner Styles
+.banner {
+    height: 280px;
+    background-image: url('lainbanner.jpg');
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+    font-family: Trashed;
+    margin: 0% 20%;
+}*/
+
+/* Header Styles */
+header {
+    height: 280px;
+    background-image: url('lainbanner.jpg');
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 0;
+    margin: 0% 20% 0% 20%;    
+}
+#title{
+ -moz-transform: rotate(342deg) skew(16deg, 0deg);
+ -webkit-transform: rotate(342deg) skew(16deg, 0deg);
+ -o-transform: rotate(342deg) skew(16deg, 0deg);
+ -ms-transform: rotate(342deg) skew(16deg, 0deg);
+ transform: rotate(342deg) skew(16deg, 0deg);
+ font-size: 130px;
+ padding:5% 0% 0% 24%;
+ font-family: Trashed;
+ color: white;
+ position: absolute;
+}
+
+header img{
+    height:auto;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #6a4c70;
+    padding: 1em;
+    margin: 0% 20%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: SupaFly;
+    font-size: 25px;
+}
+nav:hover{
+    background-color: #120215;
+}
+
+/* Main Content Styles */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+    padding: 0px 1em;
+    margin: 0% 20% 5% 20%;
+    background-color: #222;
+    padding: 5% 0%;
+}
+
+.window {
+    background-color: white;
+    border: 3px solid #2b0533;
+    padding: 1em;
+    height: 200px;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside Styles */
+aside {
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-image: url(skulls.jpg);
+    color: white;
+    padding: 0em;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 25px;
+    font-family:UndecappedVinyl ;
+}
+
+.aside-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer button:hover {
+    background-color: #555;
+}
